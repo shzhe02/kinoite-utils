@@ -1,0 +1,172 @@
+ls
+exit
+ls
+flatpak install gpt4all
+flatpak remove gpt4all
+cargo
+cargo install bottom
+ls
+exit
+toolbox enter build
+ls
+echo $CARGO_HOME
+echo $env.CARGO_HOME
+path add
+path add ~/.cargo/bin
+path --help
+cargo
+cargo install bottom
+btm
+systemctl poweroff
+systemctl poweroff -i
+sudo dnf install build-essentials
+ls
+exit
+zellij options --theme ayu-dark
+exit
+zellij options --theme ayu-light
+exit
+zellij options --theme ayu_dark
+exit
+zellij options --theme ayu_light
+ls
+cd Documents
+ls
+flatpak install foliate -y
+flatpak install foliate
+exit
+zellij
+exit
+chsh -u
+chsh -l
+chsh -s /bin/bash
+sudo vi /etc/passwd
+sudo vi /etc/shells
+flatpak update -y
+rpm-ostree update
+ls
+mkdir ~/.cache/starship
+starship init nu | save -f ~/.cache/starship/init.nu
+ls
+cd Documents/projects/kinoite-utils/
+ls
+cd .config/nushell/
+ls
+cd ~
+cd .config
+cd nushell
+echo $env.HOME
+path
+pwd
+cd ~/.cargo/
+cd ..
+cd .config/nushell/
+ls
+hx config.nu
+ls
+sudo hx /etc/passwd
+hx /etc/passwd
+exit
+toolbox enter dev
+vi /etc/passwd
+sudo vi /etc/passwd
+ls
+exit
+toolbox enter dev
+hx 
+toolbox enter dev
+ls
+exit
+toolbox enter dev
+$env.HOME
+exit
+toolbox enter dev
+echo $env
+hx
+hx config.kdl
+cd ..
+ls
+cd common/
+cat /etc/group
+ls -l
+groupmod
+chgrp
+chgrp --help
+ls
+cd common
+groups --version
+groups rv
+cat /etc/group
+cd common
+ls
+cd kinoite-utils/
+ls
+zellij --help
+exit
+zellij
+ls
+ls -l
+cat /etc/group
+cd kinoite-utils/
+cd ~
+cd ..
+cd common
+ls
+cd kinoite-utils/
+ls -l
+id
+cd kinoite-utils/
+sudo chmod 2070 ./kinoite-utils/
+sudo chmod 2070 -R ./kinoite-utils/
+ls
+ls -l
+cd kinoite-utils/
+cat /etc/group
+ls -l
+chown -R test ./kinoite-utils/
+sudo chown -R test ./kinoite-utils/
+sudo chown -R nobody ./kinoite-utils/
+ls -l
+cd kinoite-utils/
+ls -l
+cd ..
+ls
+sudo chown -R nobody .
+cd ..
+ls -l
+cd ..
+ls
+cd common
+ls
+./reset-permissions.sh
+sudo chmod +x ./reset-permissions.sh
+ls
+./reset-permissions.sh
+sudo ./reset-permissions.sh
+ls -l
+./reset-permissions.sh
+sudo ./reset-permissions.sh
+ls -l
+./reset-permissions.sh
+cd ..
+cd common
+ls -l
+ls
+cd kinoite-utils/
+ls
+cd scripts/
+ls
+cd user
+ls
+cd ..
+ls
+cd ..
+ls
+cd testing
+ls
+sudo ./reset-testuser.sh
+exit
+toolbox enter dev
+ls
+vi ./reset-testuser.sh
+-e
