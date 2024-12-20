@@ -1,0 +1,17 @@
+themes {
+	// Modified by making the following switches:
+	// - Blue & Green
+	ayu_modified {
+		fg "#BFBDB6"
+		bg "#0F1419"
+		black "#131721"
+		red "#F07178"
+		green "#59C2FF"
+		yellow "#E6B450"
+		blue "#AAD94C"
+		magenta "#D2A6FF"
+		cyan "#73B8FF"
+		white "#CCCAC2"
+		orange "#FF8F40"
+	}
+}
