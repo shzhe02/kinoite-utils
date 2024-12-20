@@ -1,0 +1,29 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Sets user-defined palette
+# Palettes must be defined _after_ this line
+palette = "ayu"
+
+[directory]
+style = "bold yellow"
+
+[character]
+success_symbol = "[❯](bold blue)"
+vimcmd_symbol = "[❮](bold blue)"
+vimcmd_replace_symbol = "[❮](bold magenta)"
+vimcmd_replace_one_symbol = "[❮](bold magenta)"
+
+[palettes.ayu]
+background = "#0f1419"
+foreground = "#bfbdb6"
+black = "#131721"
+blue = "#59c2ff"
+dark_gray = "#2d3640"
+cyan = "#73b8ff"
+gray = "#5c6773"
+green = "#aad94c"
+magenta = "#d2a6ff"
+orange = "#ff8f40"
+red = "#f07178"
+yellow = "#e6b450"

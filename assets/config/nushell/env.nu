@@ -99,6 +99,7 @@ $env.NU_PLUGIN_DIRS = [
 $env.PATH = ($env.PATH | split row (char esep) | prepend '~/.cargo/bin')
 
 $env.SHELL = '~/.cargo/bin/nu'
+$env.STARSHIP_CONFIG = $'($env.HOME)/.config/starship/starship.toml'
 
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')

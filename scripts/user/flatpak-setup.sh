@@ -8,4 +8,3 @@ fi
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo -u
 flatpak install flathub io.github.zen_browser.zen -y
-flatpak install flathub org.mozilla.Thunderbird -y

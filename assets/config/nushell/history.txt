@@ -170,3 +170,327 @@ toolbox enter dev
 ls
 vi ./reset-testuser.sh
 -e
+ls
+cd commons
+cd common
+ls
+sudo ./reset-permissions.sh
+cd kinoite-utils/
+ls
+cd testing
+ls
+sudo ./reset-test-user.sh
+rpm-ostree status
+rpm-ostree install helix
+rpm-ostree update
+cd ..
+cd common
+cd kinoite-utils/scripts/
+cd system
+ls
+rpm-ostree install ../../assets/sddm-eucalyptus-drop-modified.rpm
+cd ..
+ls
+cd ...
+ls
+sudo ./reset-permissions.sh
+cd kinoite-utils/
+ls
+cd testing
+ls
+sudo ./reset-test-user.sh
+userdel -r test
+sudo userdel -r test
+hx
+sudo ./reset-permissions.sh
+cd kinoite-utils/
+ls
+git status
+git config --global --ad safe.directory /var/home/common
+git status
+git config --global --add safe.directory /var/home/common
+git status
+git config --global --add safe.directory /var/home/common/kinoite-utis
+git config --global --add safe.directory /var/home/common/kinoite-utils
+git status
+git add .
+git status
+git commit -m "added scripts for setting up alacritty, helix, zellij, nushell, and starship."
+git config --global user.email "13660218+shzhe02@users.noreply.github.com"
+git config --global user.name "Harvey Lim"
+git commit -m "added scripts for setting up alacritty, helix, zellij, nushell, and starship."
+git push
+git log
+zellij setup --check
+exit
+zellij options --theme ayu_dark
+exit
+zellij options --theme ayu_mirage
+exit
+zellij options --theme ayu_light
+exit
+zellij options --theme ayu_dark
+exit
+zellij options --theme ayu_light
+exit
+zellij options --theme ayu_dark
+exit
+zellij options --theme ayu_modified
+hx
+ls
+exit
+ls
+hx
+source
+source --help
+use nu-themes
+$env
+$env.NU_LIB_DIRS
+$nu
+source ayu.nu
+source --help
+source ./.config/nushell/themes/ayu.nu
+ls
+cd ..
+ls
+theme
+ls
+cd ..
+ls
+cd ..
+ls
+cd projects
+ls
+cd .config
+ls
+cd nushell
+ls
+cd themes
+ls
+use ayu.nu
+ayu
+exit
+ls
+exit
+exit
+cd ..
+sl
+ls
+cd nushell
+sl
+ls
+cd .config
+ls
+cd nushell
+ls
+exit
+ls
+flatpak install vscodium
+ls
+flatpak install colorway
+touch README.md
+zellij theme
+zellij --help
+zellij options --help
+exit
+zellij options --theme ayu_dark
+exit
+zellij options --theme lucario
+hx
+exit
+$env.STARSHIP_SHELL
+$env
+flatpak remove --unused
+flatpak install thunderbird
+flatpak install anki
+cd .config/starship/
+cd ..
+ls
+cd nushell/
+ls
+exit
+hx
+exit
+ls
+cd ..
+ls
+cd ...
+ls
+.
+cd ..
+cd home
+ls
+exit
+cd ..
+$env.STARSHIP_SHELL
+$env.STARSHIP_CONFIG
+js
+ls
+cd ~
+exit
+$env.STARSHIP_CONFIG
+ls
+cd ~
+ls
+cd Documents/
+ls
+starship
+starship config
+ls
+exit
+starship config
+starship
+starship module
+starship module --help
+starship module -l
+starship module directory
+ls
+starship config
+flatpak update -y
+rpm-ostree update
+systemctl reboot
+systemctl reboot -i
+ls
+starship
+starship init
+starship print-config
+exit
+hx
+ls
+exit
+ls
+cd ..
+ls
+starship explain
+exit
+exit
+ls
+cd ..
+ls
+cd starship/
+ls
+ls -l
+cd ..
+ls
+cd ..
+cd .cache
+ls
+cd zellij/
+ls
+cd ..
+ls
+cd starship/
+ls
+ls -l
+starship config
+starship print-config
+$env.STARSHIP_CONFIG
+source ~/.cache/starship/init.nu
+ls
+starship print-config
+starship explain
+starship print-config
+$env.STARSHIP_LOG = "trace"
+$env.STARSHIP_CONFIG = '$env.HOME/.config/starship/starship.toml'
+$env.HOME | append '/test/testing'
+echo $env.HOME | append '/test/testing'
+$env.STARSHIP_CONFIG = ($env.HOME | append "/.config/starship/starship.toml")
+echo $env.STARSHIP_CONFIG
+ls
+exit
+ls
+ls
+hx
+cd ..
+ls
+cd ..
+cd .config/nushell/
+ls
+hx
+cd ..
+ls
+cd starship/
+ls
+cd 
+exit
+ls
+starship print-config
+ls
+cd ~
+cd Documents
+ls
+cd projects
+ls
+git clone git@github.com:shzhe02/shute.git
+cd shute
+hx starship.toml
+cd ..
+ls
+cd nushell
+ls
+exit
+"testing"
+5..7
+hx
+ls
+rm themes -r
+ls
+s
+ls
+exit
+ls
+exit
+ls
+cd ..
+ls
+cd starship
+ls
+exit
+sl
+ls
+ls
+exit
+zellij options --theme everblush
+starship print-config
+ls
+hx
+exit
+hx --health
+exit
+ls
+exit
+ls
+exit
+ls
+true
+exit
+ls
+exit
+ls
+exit
+ls
+cd ..
+ls
+cd alacritty/
+ls
+exit
+ls
+hx
+ls
+exit
+ls
+exit
+ls
+cd ..
+ls
+exit
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd common
+ls
+zellij options --help
