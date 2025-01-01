@@ -289,7 +289,7 @@ default_shell "nu"
 // The name of the default layout to load on startup
 // Default: "default"
 // 
-default_layout "default"
+default_layout "compact"
  
 // The folder in which Zellij will look for layouts
 // (Requires restart)
@@ -332,7 +332,7 @@ default_layout "default"
 //   - detach (Default)
 //   - quit
 // 
-// on_force_close "quit"
+on_force_close "quit"
  
 // Configure the scroll back buffer size
 // This is the number of lines zellij stores for each pane in the scroll back
