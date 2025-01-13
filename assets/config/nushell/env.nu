@@ -97,7 +97,13 @@ $env.NU_PLUGIN_DIRS = [
 # path add ($env.HOME | path join ".local" "bin")
 # $env.PATH = ($env.PATH | uniq)
 $env.PATH = ($env.PATH | split row (char esep) | prepend '~/.cargo/bin')
+$env.PATH = ($env.PATH | split row (char esep) | prepend '~/applications/flutter/bin')
+$env.PATH = ($env.PATH | split row (char esep) | prepend '/home/linuxbrew/.linuxbrew/bin')
+$env.PATH = ($env.PATH | split row (char esep) | prepend '/home/linuxbrew/.linuxbrew/sbin')
 
+$env.HOMEBREW_PREFIX = '/home/linuxbrew/.linuxbrew'
+$env.HOMEBREW_CELLAR = '/home/linuxbrew/.linuxbrew/Cellar'
+$env.HOMEBREW_REPOSITORY = '/home/linuxbrew/.linuxbrew/Homebrew'
 $env.SHELL = '~/.cargo/bin/nu'
 $env.STARSHIP_CONFIG = $'($env.HOME)/.config/starship/starship.toml'
 
