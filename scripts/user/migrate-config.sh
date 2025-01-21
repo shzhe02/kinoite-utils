@@ -1,10 +1,10 @@
 # Copying config files for nushell, zellij, helix, and alacritty
-cp -r ../../assets/config/nushell ~/.config/nushell
-cp -r ../../assets/config/zellij ~/.config/zellij
-cp -r ../../assets/config/starship ~/.config/starship
-cp -r ../../assets/config/helix ~/.config/helix
-cp -r ../../assets/config/alacritty ~/.config/alacritty
-cp -r ../../assets/cache/starship ~/.cache/starship
+cp -ru ../../assets/config/nushell/* ~/.config/nushell/
+cp -ru ../../assets/config/zellij/* ~/.config/zellij/
+cp -ru ../../assets/config/starship/* ~/.config/starship/
+cp -ru ../../assets/config/helix/* ~/.config/helix/
+cp -ru ../../assets/config/alacritty/* ~/.config/alacritty/
+cp -ru ../../assets/cache/starship/* ~/.cache/starship/
 
 # Manage permissions for the pasted files
 chmod -R 700 ~/.config/nushell
