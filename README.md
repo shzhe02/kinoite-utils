@@ -1,8 +1,6 @@
-# Kinoite Utils
+# System Utils
 
-This is a collection of scripts I use to automatically set up my user with my preferred programs.
-
-Also contains config files.
+This is a collection of scripts I use to automatically set up a system and user with my preferred programs.
 
 ## Acknowledgments
 
